@@ -17,7 +17,7 @@ export default function NavBar() {
                 <Link to="/github/users/surryjm">Surry's Github</Link>
             </li>
             <li>
-                Version: {process.env.CREATE_REACT_APP_VERSION}
+                Version: {process.env.REACT_APP_VERSION}
             </li>
         </ul>
     );
