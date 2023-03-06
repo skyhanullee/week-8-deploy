@@ -11,10 +11,10 @@ export default function NavBar() {
                 <Link to="/github/search">Github Search</Link>
             </li>
             <li>
-                <Link to="/github/users/bhague1281">Brian's Github</Link>
+                <Link to="/github/users/jimmynono">James's Github</Link>
             </li>
             <li>
-                <Link to="/github/users/surryjm">Surry's Github</Link>
+                <Link to="/github/users/rainycitycoder">Chris's Github</Link>
             </li>
             <li>
                 Version: {process.env.REACT_APP_VERSION}
