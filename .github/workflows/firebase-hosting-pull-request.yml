@@ -15,3 +15,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_GITHUB_CLASS_DEMO_61CEF }}'
           projectId: github-class-demo-61cef
+          entrypoint: ./github-app
