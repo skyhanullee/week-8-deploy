@@ -1,16 +1,10 @@
 {
   "hosting": {
-    "public": "github-app/public",
+    "public": "build.github-app",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   }
 }
